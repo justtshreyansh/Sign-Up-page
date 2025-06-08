@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Sign Up</h1></header>
+
+      <main>
+        <form action="" method="post">
+          <!-- Name -->
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            required
+          />
+          <hr />
+          <!-- Email -->
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <hr />
+          <!-- Password -->
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <hr />
+          <!-- Confirm password -->
+          <label for="confirmPassword">Confirm password:</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Confirm Passowrd"
+            required
+          />
+          <hr />
+          <!-- Date -->
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date" required />
+          <hr />
+          <!-- Role -->
+          <label for="role">Role:</label>
+          <input type="radio" name="role" id="role" required />Student
+          <input type="radio" name="role" id="role" required />Employee
+          <br />
+          <!-- Terms and conditions -->
+          <input type="radio" name="tc" id="tc" required />I agree to all the
+          Terms and Conditions.
+          <br />
+          <button type="submit">Sign up</button>
+        </form>
+      </main>
+      <footer>Made with Love by Shreyansh</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
